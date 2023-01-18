@@ -11,12 +11,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Screenshot
 
-![desktop-preview]()
+![desktop-preview](https://user-images.githubusercontent.com/91362640/213245227-7aa748db-c863-4847-bf20-c514d339d288.jpg)
 
 ## Links
 
 - Solution URL:(https://www.frontendmentor.io/)
-- Live Site URL:(https://mohamed806h.github.io/)
+- Live Site URL:(https://mohamed806h.github.io/Interactive-rating-component/)
 
 ## Built with
 
