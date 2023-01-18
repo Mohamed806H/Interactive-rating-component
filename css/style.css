@@ -1,0 +1,164 @@
+section.rating-card {
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  height: 422px;
+  background-color: var(--BlueDark-color);
+  border-radius: 30px;
+}
+section.rating-card img.star {
+  background-color: var(--DarkBlue-color);
+  padding: 13px;
+  border-radius: 30px;
+  position: relative;
+  top: -40px;
+  left: -143px;
+}
+section.rating-card h1 {
+  color: var(--White-color);
+  font-weight: 700;
+  font-size: 25px;
+  position: relative;
+  top: -5px;
+  left: -76px;
+}
+section.rating-card p {
+  color: var(--MediumGrey-color);
+  font-weight: 400;
+  width: 330px;
+  position: relative;
+  top: 4px;
+  left: 0px;
+}
+section article {
+  display: flex;
+  flex-direction: row;
+}
+section article button {
+  color: var(--MediumGrey-color);
+  font-weight: 400;
+  width: 46px;
+  height: 46px;
+  background-color: var(--DarkBlue-color);
+  border-radius: 50%;
+  border-style: none;
+  position: relative;
+  top: 25px;
+  left: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26px;
+  transition: all 0.3s ease-in-out;
+}
+section article button:hover {
+  color: var(--White-color);
+  background-color: var(--Orange-color);
+  cursor: pointer;
+}
+section.rating-card button.action {
+  color: var(--White-color);
+  font-weight: 400;
+  font-size: 14px;
+  width: 350px;
+  height: 45px;
+  background-color: var(--Orange-color);
+  border-radius: 30px;
+  position: relative;
+  top: 60px;
+  left: 10px;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  transition: all 0.3s ease-in-out;
+}
+section.rating-card button.action:hover {
+  color: var(--Orange-color);
+  background-color: var(--White-color);
+  cursor: pointer;
+}
+
+section.thanks-card {
+  display: none;
+  flex-direction: column;
+  width: 416px;
+  height: 422px;
+  background-color: var(--BlueDark-color);
+  border-radius: 30px;
+}
+section.thanks-card img {
+  position: relative;
+  top: -40px;
+  width: 48%;
+}
+section.thanks-card p.rating {
+  background-color: var(--DarkBlue-color);
+  border-radius: 20px;
+  font-size: 15px;
+  height: 35px;
+  color: var(--Orange-color);
+  width: 200px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+section.thanks-card h1.thank-h1 {
+  color: var(--White-color);
+  font-size: 25px;
+  position: relative;
+  top: 35px;
+  left: 10px;
+}
+section.thanks-card p.thankfull {
+  color: var(--MediumGrey-color);
+  width: 336px;
+  text-align: center;
+  position: relative;
+  top: 45px;
+}
+.change-state {
+  color: var(--White-color);
+  background-color: var(--MediumGrey-color);
+}
+@media screen and (max-width: 375px) {
+  section.rating-card {
+    display: flex;
+    width: 325px;
+    height: 390px;
+  }
+  section.rating-card img.star {
+    top: -40px;
+    left: -120px;
+  }
+  section.rating-card h1 {
+    top: -20px;
+    left: -45px;
+  }
+  section.rating-card p {
+    width: 289px;
+    top: -4px;
+    left: 13px;
+    font-size: 14px;
+  }
+  section article button.rate {
+    top: 25px;
+    left: 2px;
+    margin-left: 13px;
+  }
+  section.rating-card button.action {
+    width: 290px;
+    left: 5px;
+  }
+
+  section.thanks-card {
+    width: 325px;
+    height: 390px;
+    display: none;
+  }
+
+  section.thanks-card p.thankfull {
+    width: 289px;
+    font-size: 14px;
+  }
+}
